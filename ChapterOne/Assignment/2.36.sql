@@ -1,0 +1,1 @@
+SELECT WarehouseID, SUM(QuantityOnHand) AS TotalItemsOnHand FROM INVENTORY GROUP BY WarehouseID order by TotalItemsOnHand desc;

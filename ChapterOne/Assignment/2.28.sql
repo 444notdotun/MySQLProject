@@ -1,0 +1,1 @@
+SELECT SKU_Description,SKU, WarehouseID FROM INVENTORY WHERE QuantityOnHand >0 OR QuantityOnOrder=0  ORDER BY WarehouseID DESC ,SKU ASC;
