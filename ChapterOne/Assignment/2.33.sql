@@ -1,1 +1,0 @@
-SELECT SKU_Description,SKU FROM INVENTORY WHERE SKU_Description LIKE '__d%';

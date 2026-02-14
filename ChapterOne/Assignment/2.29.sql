@@ -1,1 +1,0 @@
-SELECT SKU_Description,SKU, WarehouseID,QuantityOnHand FROM INVENTORY WHERE QuantityOnHand >1 AND QuantityOnHand< 10 
